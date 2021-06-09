@@ -43,35 +43,45 @@ h3 {
     flex-direction: row;
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 2%;
+}
+
+#buttons {
+    width: 55%;
+    position: relative;
 }
 
 .top {
-    min-height: 45%;
+    min-height: 20%;
 }
 
 .bottom {
     min-height: 25%;
+    margin-bottom: 30px;
 }
 
 .wrap {
     display: flex;
-    justify-content: space-between;
-
 }
 
 #name {
-    width: 30%;
+    width: 24%;
     font-size: 35px;
     font-weight: bold;
     color: #3FAFCB;
 }
 
-#menu {
-    width: 55%;
-}
-
 #socials {
     width: 15%;
+    display: flex;
+    position: relative;
+}
+
+#socialsWrap {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 15%;
 }
 
 #touchText {
@@ -85,6 +95,82 @@ h3 {
     width: 35%;
 }
 
-/* #brainImg {
-    height: 90%;
-} */
+#headerImg {
+    max-height: 80%;
+    margin-right: 1%;
+}
+
+.menu {
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+button {
+    font-family: Lato, sans-serif;
+    font-size: 1.5vw;
+    margin-right: 30px;
+    background: none;
+    border-width: 0px;
+    color: #000000;
+    display: inline-block;
+    
+}
+
+button:hover {
+    color: #3FAFCB;
+}
+
+
+.icon {
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    height: 60%;
+    width: 20%;
+    background-size:60%;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+#twitter {
+    background-image: url("/imgs/header/graytwitter.png");
+    
+}
+#twitter:hover {
+    background-image: url("/imgs/header/orangetwitter.png");
+}
+
+#mail {
+    background-image: url("/imgs/header/graymail.png"); 
+}
+
+#mail:hover {
+    background-image: url("/imgs/header/orangemail.png"); 
+}
+
+#linkedIn {
+    background-image: url("/imgs/header/grayli.png");
+    
+}
+#linkedIn:hover {
+    background-image: url("/imgs/header/orangeli.png");
+}
+
+#git {
+    background-image: url("/imgs/header/graygit.png"); 
+}
+
+#git:hover {
+    background-image: url("/imgs/header/orangegit.png"); 
+}
+
+.headerLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.currentPage {
+    color: #3FAFCB
+}
