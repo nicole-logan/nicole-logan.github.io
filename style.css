@@ -34,6 +34,7 @@ h3 {
     font-size: 40px;
     font-size: 6vh;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .header {
@@ -51,12 +52,7 @@ h3 {
     position: relative;
 }
 
-.top {
-    min-height: 20%;
-}
-
 .bottom {
-    min-height: 25%;
     margin-bottom: 30px;
 }
 
@@ -173,4 +169,8 @@ button:hover {
 
 .currentPage {
     color: #3FAFCB
+}
+
+#end {
+    margin-bottom: 0px;
 }
