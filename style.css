@@ -371,3 +371,26 @@ button:hover {
     justify-content: space-between;
     margin-top: 2%;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 12px !important;
+    margin-bottom: 1%;
+}
+
+.heart {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    object-fit: cover;
+    background-image: url("/imgs/heart.png");
+    width: 30px;
+    height: 30px;
+}
+
+.heart:hover {
+    background-image: url("/imgs/heartlogo.gif");
+}
