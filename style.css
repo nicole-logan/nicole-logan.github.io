@@ -151,35 +151,35 @@ button:hover {
 }
 
 #twitter {
-    background-image: url("/imgs/header/graytwitter.png");
+    background-image: url("./imgs/header/graytwitter.png");
     
 }
 #twitter:hover {
-    background-image: url("/imgs/header/orangetwitter.png");
+    background-image: url("./imgs/header/orangetwitter.png");
 }
 
 #mail {
-    background-image: url("/imgs/header/graymail.png"); 
+    background-image: url("./imgs/header/graymail.png"); 
 }
 
 #mail:hover {
-    background-image: url("/imgs/header/orangemail.png"); 
+    background-image: url("./imgs/header/orangemail.png"); 
 }
 
 #linkedIn {
-    background-image: url("/imgs/header/grayli.png");
+    background-image: url("./imgs/header/grayli.png");
     
 }
 #linkedIn:hover {
-    background-image: url("/imgs/header/orangeli.png");
+    background-image: url("./imgs/header/orangeli.png");
 }
 
 #git {
-    background-image: url("/imgs/header/graygit.png"); 
+    background-image: url("./imgs/header/graygit.png"); 
 }
 
 #git:hover {
-    background-image: url("/imgs/header/orangegit.png"); 
+    background-image: url("./imgs/header/orangegit.png"); 
 }
 
 .headerLink {
@@ -225,25 +225,25 @@ button:hover {
 }
 
 #AAimg {
-    background-image: url("/imgs/pub/AAimg.png");
+    background-image: url("./imgs/pub/AAimg.png");
 }
 
 #PAonCogImg {
-    background-image: url("/imgs/pub/PAonCog.png");
+    background-image: url("./imgs/pub/PAonCog.png");
 }
 
 #HLSimg {
-    background-image: url("/imgs/header/brain.png");
+    background-image: url("./imgs/header/brain.png");
     /* background-size: 80% 85%; */
 }
 
 #hydrationImg {
-    background-image: url("/imgs/header/brain.png");
+    background-image: url("./imgs/header/brain.png");
     /* background-size: 80% 105%; */
 }
 
 #inhibitoryImg {
-    background-image: url("/imgs/pub/inhibition.png");
+    background-image: url("./imgs/pub/inhibition.png");
     /* background-size: 100% 75%; */
 }
 
@@ -314,27 +314,27 @@ button:hover {
 }
 
 #pres1 {
-    background-image: url("/imgs/pres/pres1.png");
+    background-image: url("./imgs/pres/pres1.png");
 }
 
 #pres2 {
-    background-image: url("/imgs/pres/pres2.png");
+    background-image: url("./imgs/pres/pres2.png");
 }
 
 #pres3 {
-    background-image: url("/imgs/pres/pres3.png");
+    background-image: url("./imgs/pres/pres3.png");
 }
 
 #pres4 {
-    background-image: url("/imgs/pres/pres4.png");
+    background-image: url("./imgs/pres/pres4.png");
 }
 
 #pres5 {
-    background-image: url("/imgs/pres/pres5.png");
+    background-image: url("./imgs/pres/pres5.png");
 }
 
 #pres6 {
-    background-image: url("/imgs/pres/pres6.png");
+    background-image: url("./imgs/pres/pres6.png");
 }
 
 #abtBanner {
@@ -386,11 +386,11 @@ button:hover {
     background-repeat: no-repeat;
     background-size: 100% auto;
     object-fit: cover;
-    background-image: url("/imgs/heart.png");
+    background-image: url("./imgs/heart.png");
     width: 30px;
     height: 30px;
 }
 
 .heart:hover {
-    background-image: url("/imgs/heartlogo.gif");
+    background-image: url("./imgs/heartlogo.gif");
 }
